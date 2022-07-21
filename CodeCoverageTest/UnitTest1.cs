@@ -28,7 +28,7 @@ namespace CodeCoverageTest
 
         }
 
-        [Test]
+        /*[Test]
         public void TestGetValuesMethod()
         {
             int id = 1;
@@ -39,6 +39,6 @@ namespace CodeCoverageTest
             Employee obj1 = result.Value as Employee;
             Assert.AreEqual("Shrivalli", obj1.Ename);
 
-        }
+        }*/
     }
 }
