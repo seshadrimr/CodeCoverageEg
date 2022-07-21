@@ -23,7 +23,7 @@ namespace CodeCoverageTest
             //new test method added
             List<Employee> actualresult = Employee.getEmployees();
             int numberofemployees = actualresult.Count;
-            int expectedemployees = 4;
+            int expectedemployees = 3;
             Assert.AreEqual(expectedemployees, numberofemployees);
 
         }
